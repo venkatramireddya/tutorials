@@ -1,0 +1,3628 @@
+repo_name: venkatramireddya/tutorials
+report_id: 8da2232eafa9921d477974a4a6c86f52
+repo_type: Public
+timestamp: '2023-11-09T12:36:21+00:00'
+requested_by: lor6
+provider: github
+branch: master
+detected_tools_count: 280
+tools:
+- name: Asciidoctor
+  description: An open source, pure Ruby processor for converting AsciiDoc documents
+    or strings into HTML and other formats
+  website_url: https://asciidoctor.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2924/gvQpykZd_400x400.jpg
+  detection_source: asciidoctor/pom.xml
+  last_updated_by: Eugen Paraschiv
+  last_updated_on: 2018-09-25 18:09:00.000000000 Z
+- name: C++
+  description: Has imperative, object-oriented and generic programming features, while
+    also providing the facilities for low level memory manipulation
+  website_url: http://www.cplusplus.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1049/cplusplus.png
+  detection_source: Repo Metadata
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: Clojure
+  description: A dynamic programming language that targets the Java Virtual Machine
+  website_url: http://clojure.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1003/Clojure_300x300.png
+  detection_source: Repo Metadata
+- name: Gherkin
+  description: A plain-text language with a simple structure
+  website_url: https://cucumber.io/docs/gherkin/reference/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2460/default_aff27c02548fadb1b7e6f85a2b0da1c5dca5cc08.png
+  detection_source: Repo Metadata
+- name: Groovy
+  description: A multi-faceted language for the Java platform
+  website_url: https://groovy-lang.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/997/default_7ff5fcd857f42ad25149f659693d8930bffddf14.png
+  detection_source: Repo Metadata
+- name: Handlebars.js
+  description: Minimal Templating on Steroids
+  website_url: http://handlebarsjs.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1143/Handlebars.png
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  version: '1.8'
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: pom.xml
+  detection_source: pom.xml
+  last_updated_by: Loredana Crusoveanu
+  last_updated_on: 2020-07-07 11:18:10.000000000 Z
+- name: Java EE
+  description: The standard in community-driven enterprise software
+  website_url: http://www.oracle.com/technetwork/java/javaee/overview/index.html
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4522/652rxwyK_400x400.png
+  detection_source: spring-ejb/wildfly/wildfly-mdb/pom.xml
+  last_updated_by: Sergey Petunin
+  last_updated_on: 2018-01-18 10:50:38.000000000 Z
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Kotlin
+  description: Statically typed Programming Language targeting JVM and JavaScript
+  website_url: https://kotlinlang.org/
+  open_source: true
+  hosted_saas: true
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source: Repo Metadata
+- name: Mustache
+  description: Logic-less templates
+  website_url: http://mustache.github.io/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1142/197655.png
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source: Repo Metadata
+- name: R Language
+  description: A language and environment for statistical computing and graphics
+  website_url: http://www.r-project.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1213/r-logo.png
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source: vraptor/src/main/resources/database.sql
+  last_updated_by: psevestre
+  last_updated_on: 2019-05-08 05:48:37.000000000 Z
+- name: Scala
+  description: A pure-bred object-oriented language that runs on the JVM
+  website_url: http://www.scala-lang.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1012/scala.png
+  detection_source: Repo Metadata
+- name: Smarty
+  description: Template engine for PHP
+  website_url: http://www.smarty.net/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/3693/smarty.png
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source: Repo Metadata
+- name: Akka
+  description: Build powerful concurrent &amp; distributed applications more easily
+  website_url: http://akka.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Concurrency Frameworks
+  image_url: https://img.stackshare.io/service/1773/bxLhidly.png
+  detection_source: spring-akka/src/test/java/com/baeldung/akka/SpringAkkaIntegrationTest.java
+  last_updated_by: Kotharu
+  last_updated_on: 2018-10-21 12:49:00.000000000 Z
+- name: AlpineJS
+  description: A lightweight JavaScript framework for building interactive web interfaces
+  website_url: https://alpinejs.dev/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/101749/default_1affeb0b941376ae07126433311c338b5cd86701.jpg
+  detection_source: docker/docker-compose.yml
+  last_updated_by: andrea-ligios
+  last_updated_on: 2019-05-26 18:22:55.000000000 Z
+- name: Android SDK
+  description: An SDK that provides you the API libraries and developer tools necessary
+    to build, test, and debug apps for Android.
+  website_url: http://developer.android.com
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1010/m8jf0po4imu8t5eemjdd.png
+  detection_source: gradle/gradle-employee-app/build.gradle
+  last_updated_by: sasam0320
+  last_updated_on: 2020-04-25 05:32:20.000000000 Z
+- name: Angular
+  description: A platform for building mobile and desktop web applications
+  website_url: https://angular.io
+  version: 6.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/3745/cb8U-gL6_400x400.jpg
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular6/package.json
+  last_updated_by: lor6
+  last_updated_on: 2017-06-25 09:58:09.000000000 Z
+- name: Apache Dubbo
+  description: A high performance Java RPC framework
+  website_url: http://dubbo.apache.org/en-us/
+  version: 2.5.7
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/5581/FJbH5vbF_400x400.jpg
+  detection_source_url: dubbo/pom.xml
+  detection_source: dubbo/pom.xml
+  last_updated_by: sampadawagde
+  last_updated_on: 2021-05-08 07:39:05.000000000 Z
+- name: Apache FreeMarker
+  description: A free Java-based template engine
+  website_url: http://freemarker.incubator.apache.org/index.html
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/4456/ymCgaIO0_400x400.jpg
+  detection_source: Repo Metadata
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source: jhipster-5/bookstore-monolith/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: Avro
+  description: 'A data serialization framework '
+  website_url: https://avro.apache.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4265/avro.png
+  detection_source: spring-cloud/spring-cloud-stream/spring-cloud-stream-kafka/pom.xml
+  last_updated_by: sampadawagde
+  last_updated_on: 2020-06-12 06:39:52.000000000 Z
+- name: Axon
+  description: Open source framework for event-driven microservices and domain-driven
+    design
+  website_url: https://axoniq.io/product-overview/axon-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/6604/nEeG2U6-_400x400.jpg
+  detection_source: axon/pom.xml
+  last_updated_by: Steven van Beelen
+  last_updated_on: 2018-12-18 13:43:32.000000000 Z
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 4.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular4/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: Jackson
+  description: A suite of data-processing tools for Java
+  website_url: https://github.com/FasterXML/jackson
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://ucarecdn.com/d8ec839d-4d66-4c08-8297-9e2be82f6b75/
+  detection_source: play-framework/websockets/build.sbt
+  last_updated_by: Alfred Samanga
+  last_updated_on: 2019-11-23 11:09:07.000000000 Z
+- name: Netty
+  description: Asynchronous event-driven network application framework
+  website_url: http://netty.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Concurrency Frameworks
+  image_url: https://img.stackshare.io/service/3278/netty_icon_256px.png
+  detection_source: libraries-server/src/main/java/com/baeldung/netty/NettyClient.java
+  last_updated_by: Anton
+  last_updated_on: 2017-06-07 05:52:23.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular6/package.json
+  last_updated_by: lor6
+  last_updated_on: 2017-06-25 09:58:09.000000000 Z
+- name: Project Reactor
+  description: Library for building non-blocking applications on JVM
+  website_url: https://projectreactor.io/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/5807/default_cbd8ab670309059d7e315252d307d409aa40d793.png
+  detection_source: spring-websockets/pom.xml
+  last_updated_by: sampadawagde
+  last_updated_on: 2021-05-06 11:44:43.000000000 Z
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source: spring-web-modules/spring-rest-simple/pom.xml
+  last_updated_by: amit2103
+  last_updated_on: 2018-11-18 14:39:03.000000000 Z
+- name: QueryDSL
+  description: Unified queries for Java
+  website_url: http://www.querydsl.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/3881/da8da0c0e6dfbfc596f787ade49381a6_400x400.png
+  detection_source: spring-web-modules/spring-rest-query-language/pom.xml
+  last_updated_by: amit2103
+  last_updated_on: 2018-04-26 12:37:47.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 0.14.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: spring-security-modules/spring-security-web-react/src/main/webapp/WEB-INF/view/react/package.json
+  last_updated_by: Sallo Szrajbman
+  last_updated_on: 2021-03-28 16:00:33.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 4.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: spring-boot-modules/spring-boot-react/frontend/package-lock.json
+  detection_source: spring-boot-modules/spring-boot-react/frontend/package.json
+  last_updated_by: Sallo Szrajbman
+  last_updated_on: 2021-03-28 16:00:33.000000000 Z
+- name: RxJS
+  description: The Reactive Extensions for JavaScript
+  website_url: http://reactivex.io/rxjs/
+  version: 5.5.12
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Concurrency Frameworks
+  image_url: https://img.stackshare.io/service/1796/984368.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular6/package.json
+  last_updated_by: lor6
+  last_updated_on: 2017-06-25 09:58:09.000000000 Z
+- name: RxJava
+  description: Reactive Extensions for the JVM
+  website_url: https://github.com/ReactiveX/RxJava
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/2190/6407041.png
+  detection_source: spring-webflux-threads/pom.xml
+  last_updated_by: sampadawagde
+  last_updated_on: 2020-04-18 06:14:19.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source: jhipster/jhipster-monolithic/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-03-21 11:23:41.000000000 Z
+- name: Spring Boot
+  description: Create Spring-powered, production-grade applications and services with
+    absolute minimum fuss
+  website_url: https://spring.io/projects/spring-boot
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2927/nPzvMuo2_400x400.png
+  detection_source: spring-cloud/spring-cloud-connectors-heroku/pom.xml
+  last_updated_by: amit2103
+  last_updated_on: 2019-04-07 18:42:30.000000000 Z
+- name: Spring Cloud
+  description: Spring helps development teams everywhere build simple, portable,fast
+    and flexible JVM-based systems and applications.
+  website_url: https://spring.io/projects/spring-cloud
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/5494/default_b403ef08976083aea6d4caf5a4f19f3325c751e5.png
+  detection_source: spring-sleuth/pom.xml
+  last_updated_by: amit2103
+  last_updated_on: 2019-04-25 19:09:53.000000000 Z
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  version: 5.3.7
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: parent-spring-5/pom.xml
+  detection_source: wildfly/pom.xml
+  last_updated_by: catalin-burcea
+  last_updated_on: 2019-12-05 14:56:52.000000000 Z
+- name: Vaadin
+  description: Components and tools for building web apps in Java
+  website_url: http://vaadin.com
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2971/UuHV6j99_400x400.jpg
+  detection_source: vaadin/pom.xml
+  last_updated_by: Loredana Crusoveanu
+  last_updated_on: 2020-07-07 11:18:10.000000000 Z
+- name: css-loader
+  description: Helps webpack to collect CSS from all the css files
+  website_url: https://github.com/webpack-contrib/css-loader
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: guava
+  description: Google Core Libraries for Java 6+
+  website_url: https://github.com/google/guava
+  version: 27.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/2970/wBjKn0ol.png
+  detection_source_url: algorithms-miscellaneous-1/pom.xml
+  detection_source: testing-modules/rest-assured/pom.xml
+  last_updated_by: Chandra Prakash
+  last_updated_on: 2019-03-03 23:14:03.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/bower.json
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular4/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-05-07 17:00:32.000000000 Z
+- name: reactstrap
+  description: Easy to use React Bootstrap 4 components compatible with React
+  website_url: https://reactstrap.github.io
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/8935/0Xm63ShM_400x400__1_.jpg
+  detection_source: spring-boot-modules/spring-boot-react/frontend/package.json
+  last_updated_by: Sallo Szrajbman
+  last_updated_on: 2021-03-28 16:00:33.000000000 Z
+- name: ActiveMQ
+  description: A message broker written in Java together with a full JMS client
+  website_url: http://activemq.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/1062/default_08edb6f82e2c79424efc1e297ab096e50acd8e0b.jpg
+  detection_source: spring-remoting/remoting-rmi/remoting-rmi-client/pom.xml
+  last_updated_by: sampadawagde
+  last_updated_on: 2021-05-13 17:13:38.000000000 Z
+- name: Apache Derby
+  description: An open source relational database implemented entirely in Java
+  website_url: https://db.apache.org/derby/index.html
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/7309/derby.png
+  detection_source: spring-exceptions/pom.xml
+  last_updated_by: sampadawagde
+  last_updated_on: 2021-05-13 17:13:38.000000000 Z
+- name: Cassandra
+  description: A partitioned row store. Rows are organized into tables with a required
+    primary key.
+  website_url: http://cassandra.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1032/cassandra_small.png
+  detection_source: persistence-modules/java-cassandra/src/test/resources/cassandra.yaml
+  last_updated_by: Sorin Zamfir
+  last_updated_on: 2020-02-01 10:47:34.000000000 Z
+- name: Cloud DB for Mysql
+  description: Easily setup and manage the MySQL database service
+  website_url: https://www.ncloud.com/product/database/cloudDbMysql
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: SQL Database as a Service
+  image_url: https://img.stackshare.io/service/21275/default_078eb0ae2b56280a937ed073a3ba4332291f9ba8.png
+  detection_source: persistence-modules/hibernate-libraries/docker-compose.yml
+  last_updated_by: Oussama BEN MAHMOUD
+  last_updated_on: 2021-04-04 16:08:07.000000000 Z
+- name: Couchbase
+  description: Document-Oriented NoSQL Database
+  website_url: http://www.couchbase.com/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1089/KMIbGY8C.png
+  detection_source: persistence-modules/spring-data-couchbase-2/pom.xml
+  last_updated_by: catalin-burcea
+  last_updated_on: 2019-12-05 14:56:52.000000000 Z
+- name: Ehcache
+  description: Java's Most Widely-Used Cache
+  website_url: http://ehcache.org/
+  version: 2.6.11
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Cache
+  image_url: https://img.stackshare.io/service/3093/EhcacheTwitterIcon.png
+  detection_source_url: spring-security-modules/spring-security-acl/pom.xml
+  detection_source: spring-security-modules/spring-security-web-boot-2/pom.xml
+  last_updated_by: Sanjay Patel
+  last_updated_on: 2018-07-12 07:04:54.000000000 Z
+- name: Google Cloud Storage
+  description: Durable and highly available object storage service
+  website_url: https://cloud.google.com/products/cloud-storage/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/694/Cloud_Storage.png
+  detection_source: google-cloud/pom.xml
+  last_updated_by: catalin-burcea
+  last_updated_on: 2019-12-05 14:56:52.000000000 Z
+- name: GraphiQL
+  description: An in-browser IDE for exploring GraphQL
+  website_url: https://github.com/graphql/graphiql
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/7879/GraphiQL.png
+  detection_source: spring-boot-modules/spring-boot-libraries/pom.xml
+  last_updated_by: Loredana Crusoveanu
+  last_updated_on: 2021-01-07 14:30:52.000000000 Z
+- name: H2 Database
+  description: A relational database management system written in Java
+  website_url: http://www.h2database.com/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/3105/h2-logo_square_400x400.png
+  detection_source: vavr/pom.xml
+  last_updated_by: catalin-burcea
+  last_updated_on: 2019-12-05 14:56:52.000000000 Z
+- name: HBase
+  description: The Hadoop database, a distributed, scalable, big data store
+  website_url: http://hbase.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1043/HBase-Twitter3.png
+  detection_source: persistence-modules/hbase/src/main/resources/hbase-site.xml
+  last_updated_by: Kevin Gilmore
+  last_updated_on: 2016-08-08 02:43:06.000000000 Z
+- name: HSQLDB
+  description: Leading SQL relational database software written in Java
+  website_url: http://hsqldb.org
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/6958/yQ4763oZ_400x400.jpg
+  detection_source: spring-web-modules/spring-rest-angular/pom.xml
+  last_updated_by: Anshul Bansal
+  last_updated_on: 2019-04-14 19:02:14.000000000 Z
+- name: Hadoop
+  description: Open-source software for reliable, scalable, distributed computing
+  website_url: http://hadoop.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1044/elephant_rgb_sq.png
+  detection_source: libraries-data/pom.xml
+  last_updated_by: catalin-burcea
+  last_updated_on: 2019-12-05 14:56:52.000000000 Z
+- name: Hazelcast
+  description: Clustering and highly scalable data distribution platform for Java
+  website_url: http://hazelcast.org/
+  version: 3.8.4
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/2024/default_000f7e56d4be68acfa58a6ea8bd40e65a10e04ff.jpg
+  detection_source_url: libraries-data/pom.xml
+  detection_source: spring-boot-modules/spring-boot-admin/spring-boot-admin-server/pom.xml
+  last_updated_by: kwoyke
+  last_updated_on: 2020-09-16 18:53:28.000000000 Z
+- name: Hibernate
+  description: Idiomatic persistence for Java and relational databases.
+  website_url: http://hibernate.org/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/1756/1uNl_IZX.png
+  detection_source: vraptor/src/main/resources/hibernate.cfg.xml
+  last_updated_by: sampadawagde
+  last_updated_on: 2021-05-10 14:35:39.000000000 Z
+- name: Kafka
+  description: Distributed, fault tolerant, high throughput pub-sub messaging system
+  website_url: http://kafka.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/1063/kazUJooF_400x400.jpg
+  detection_source: spring-kafka/pom.xml
+  last_updated_by: mikr
+  last_updated_on: 2020-04-29 18:49:15.000000000 Z
+- name: Kafka REST
+  description: A RESTful interface to a Kafka cluster
+  website_url: https://github.com/confluentinc/kafka-rest
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Kafka Tools
+  image_url: https://img.stackshare.io/service/8938/default_952e19080b823dcfc14ef0508ae6a783d35224f6.png
+  detection_source: libraries-data/src/main/resources/kafka-connect/04_Custom/docker-compose.yaml
+  last_updated_by: Markus Gulden
+  last_updated_on: 2019-01-01 14:40:15.000000000 Z
+- name: Kafka Streams
+  description: A client library for building applications and microservices
+  website_url: https://kafka.apache.org/documentation/streams/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Stream Processing
+  image_url: https://img.stackshare.io/service/9190/kazUJooF_400x400.jpg
+  detection_source: libraries-data/pom.xml
+  last_updated_by: mikr
+  last_updated_on: 2020-04-29 18:49:15.000000000 Z
+- name: Liquibase
+  description: Easily track, version &amp; deploy database changes
+  website_url: https://www.liquibase.com
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/1398/y1As8_s5_400x400.jpg
+  detection_source: quarkus-extension/quarkus-liquibase/runtime/pom.xml
+  last_updated_by: amit2103
+  last_updated_on: 2019-04-07 18:42:30.000000000 Z
+- name: MQTT
+  description: A machine-to-machine Internet of Things connectivity protocol
+  website_url: http://mqtt.org/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/3670/mqtticon-large_400x400.png
+  detection_source: libraries-server/pom.xml
+  last_updated_by: Loredana Crusoveanu
+  last_updated_on: 2018-07-31 19:39:22.000000000 Z
+- name: MSSQL
+  description: It is an enterprise-level database system that is very popular for
+    Windows web servers
+  website_url: https://www.microsoft.com/en-us/sql-server
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/2445/ZKsJsucq_400x400.jpg
+  detection_source: persistence-modules/core-java-persistence-2/pom.xml
+  last_updated_by: Umang Budhwar
+  last_updated_on: 2020-10-16 13:52:25.000000000 Z
+- name: MapD
+  description: Open source GPU-Powered Database
+  website_url: https://www.mapd.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/6915/preview.png
+  detection_source: libraries-2/pom.xml
+  last_updated_by: Saurabh Kedia
+  last_updated_on: 2019-04-02 05:07:26.000000000 Z
+- name: Microsoft SQL Server
+  description: A relational database management system developed by Microsoft
+  website_url: http://microsoft.com/sqlserver
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1027/sql_server.png
+  detection_source: persistence-modules/core-java-persistence-2/pom.xml
+  last_updated_by: Kai Yuan
+  last_updated_on: 2020-12-13 16:22:09.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source: spring-webflux-threads/pom.xml
+  last_updated_by: Mike Wojtyna
+  last_updated_on: 2018-11-08 17:54:05.000000000 Z
+- name: MyBatis
+  description: SQL Mapper Framework for Java
+  website_url: http://www.mybatis.org/mybatis-3/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/5582/1483254.png
+  detection_source: persistence-modules/spring-mybatis/pom.xml
+  last_updated_by: Dhawal Kapil
+  last_updated_on: 2019-11-24 08:03:51.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source: vraptor/pom.xml
+  last_updated_by: aiet
+  last_updated_on: 2018-05-23 08:46:55.000000000 Z
+- name: NATS
+  description: Lightweight publish-subscribe &amp; distributed queueing messaging
+    system
+  website_url: https://nats.io
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/2066/nats-icon-color.png
+  detection_source: libraries-5/pom.xml
+  last_updated_by: mikr
+  last_updated_on: 2020-04-26 20:34:22.000000000 Z
+- name: Neo4j
+  description: The world’s leading Graph Database
+  website_url: http://www.neo4j.com/
+  version: 3.4.6
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Graph Databases
+  image_url: https://img.stackshare.io/service/1482/FbkjM42a.png
+  detection_source_url: persistence-modules/spring-data-neo4j/pom.xml
+  detection_source: persistence-modules/spring-data-neo4j/pom.xml
+  last_updated_by: catalin-burcea
+  last_updated_on: 2019-12-05 14:56:52.000000000 Z
+- name: Oracle
+  description: An RDBMS that implements object-oriented features such as user-defined
+    types, inheritance, and polymorphism
+  website_url: http://www.oracle.com/us/products/database/overview/index.html
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1026/jT-HJYJg.png
+  detection_source: persistence-modules/spring-boot-persistence-2/src/test/java/com/baeldung/spring/oracle/pooling/SpringOraclePoolingApplicationOracleLiveTest.java
+  last_updated_by: Aitor Cuesta
+  last_updated_on: 2020-04-05 10:51:27.000000000 Z
+- name: OrientDB
+  description: An open source NoSQL database management system
+  website_url: https://orientdb.com
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1611/6bEpwjZ5_400x400.png
+  detection_source: persistence-modules/orientdb/pom.xml
+  last_updated_by: Dhawal Kapil
+  last_updated_on: 2018-11-30 16:46:08.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source: testing-modules/test-containers/pom.xml
+  last_updated_by: Ashley Frieze
+  last_updated_on: 2020-08-28 23:07:53.000000000 Z
+- name: RabbitMQ
+  description: Open source multiprotocol messaging broker
+  website_url: http://www.rabbitmq.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/1061/default_df93e9a30d27519161b39d8c1d5c223c1642d187.jpg
+  detection_source: rabbitmq/pom.xml
+  last_updated_by: Aram89
+  last_updated_on: 2017-02-25 09:45:21.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  version: 2.8.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: spring-boot-modules/spring-boot-angular/src/main/js/application/package-lock.json
+  detection_source: spring-security-modules/spring-session/spring-session-redis/pom.xml
+  last_updated_by: Loredana Crusoveanu
+  last_updated_on: 2020-07-07 11:18:10.000000000 Z
+- name: SQLite
+  description: A software library that implements a self-contained, serverless, zero-configuration,
+    transactional SQL database engine
+  website_url: http://www.sqlite.org/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1071/sqlite.jpg
+  detection_source: spring-data-rest/pom.xml
+  last_updated_by: psevestre
+  last_updated_on: 2019-09-06 19:10:48.000000000 Z
+- name: Spring Data
+  description: Provides a consistent approach to data access – relational, non-relational,
+    map-reduce, and beyond
+  website_url: https://spring.io/projects/spring-data
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/7624/IG6D4Ro2_400x400.png
+  detection_source: testing-modules/spring-testing/pom.xml
+  last_updated_by: sampadawagde
+  last_updated_on: 2021-05-13 17:13:38.000000000 Z
+- name: jOOQ
+  description: 'A light database-mapping software library '
+  website_url: http://www.jooq.org
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/2279/jooq-logo-white-750x750-padded.png
+  detection_source: persistence-modules/spring-jooq/pom.xml
+  last_updated_by: amit2103
+  last_updated_on: 2018-10-14 20:02:54.000000000 Z
+- name: migra
+  description: A schema diff tool for PostgreSQL
+  website_url: https://migra.djrobstep.com/
+  license: Unlicense
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source: testing-modules/junit5-migration/pom.xml
+  last_updated_by: Chirag Dewan
+  last_updated_on: 2019-05-04 10:40:31.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 6.26.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: spring-security-modules/spring-security-web-react/src/main/webapp/WEB-INF/view/react/.babelrc
+  last_updated_by: aiet
+  last_updated_on: 2018-07-13 14:35:21.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source: spring-security-modules/spring-security-web-react/src/main/webapp/WEB-INF/view/react/package.json
+  last_updated_by: aiet
+  last_updated_on: 2018-07-13 14:35:21.000000000 Z
+- name: Eclipse
+  description: IDE for Java EE Developers
+  website_url: https://www.eclipse.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1446/8cyY6D_m.png
+  detection_source: libraries-server/pom.xml
+  last_updated_by: kwoyke
+  last_updated_on: 2020-06-02 19:15:49.000000000 Z
+- name: FindBugs
+  description: An open-source static code analyser
+  website_url: http://findbugs.sourceforge.net/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/2662/kWjFjx3K_400x400.jpg
+  detection_source: spring-swagger-codegen/spring-openapi-generator-api-client/pom.xml
+  last_updated_by: mikr
+  last_updated_on: 2020-04-26 20:34:22.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GlassFish
+  description: The Open Source Java EE Reference Implementation
+  website_url: https://glassfish.java.net
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/3628/515GX-Cc_400x400.jpg
+  detection_source: spring-jersey/pom.xml
+  last_updated_by: lor6
+  last_updated_on: 2017-09-23 21:57:46.000000000 Z
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source: spring-swagger-codegen/spring-swagger-codegen-api-client/gradlew.bat
+  last_updated_by: Seun Matt
+  last_updated_on: 2020-03-29 20:36:54.000000000 Z
+- name: Hystrix
+  description: Latency and fault tolerance library
+  website_url: https://github.com/Netflix/Hystrix
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Fault Tolerance Tools
+  image_url: https://img.stackshare.io/service/1758/cde558e9b4a1f07ff99f90d637c38388.png
+  detection_source: spring-cloud/spring-cloud-kubernetes/kubernetes-guide/client-service/pom.xml
+  last_updated_by: amit2103
+  last_updated_on: 2018-04-26 12:37:47.000000000 Z
+- name: JBoss
+  description: An open source Java EE-based application server
+  website_url: https://developers.redhat.com/products/eap
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/2188/unnamed.jpg
+  detection_source: spring-ejb/ejb-beans/pom.xml
+  last_updated_by: ccristian
+  last_updated_on: 2016-06-08 20:05:48.000000000 Z
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  version: '4.12'
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: aws-lambda/shipping-tracker/ShippingFunction/pom.xml
+  detection_source: xml/pom.xml
+  last_updated_by: Tapan Avasthi
+  last_updated_on: 2020-01-10 16:04:18.000000000 Z
+- name: Jasmine
+  description: DOM-less simple JavaScript testing framework
+  website_url: http://jasmine.github.io/
+  version: 2.8.0
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/831/7c0b595409af531b9cdeb07f8c513e8b.png
+  detection_source_url: reactive-systems/frontend/package-lock.json
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular6/package.json
+  last_updated_by: lor6
+  last_updated_on: 2017-06-25 09:58:09.000000000 Z
+- name: Jenkins
+  description: An extendable open source continuous integration server
+  website_url: http://jenkins-ci.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/670/jenkins.png
+  detection_source: jenkins/plugins/pom.xml
+  last_updated_by: freelansam
+  last_updated_on: 2021-08-02 18:57:15.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 22.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: Jetty
+  description: An open-source project providing an HTTP server, HTTP client, and javax.servlet
+    container
+  website_url: http://www.eclipse.org/jetty/
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1084/default_392a491b5c8bff92ffa39468611ad8f9c0ff1939.png
+  detection_source: libraries-server-2/src/main/config/jetty.xml
+  last_updated_by: Anshul Bansal
+  last_updated_on: 2020-04-18 18:08:53.000000000 Z
+- name: Karma
+  description: Spectacular Test Runner for JavaScript
+  website_url: http://karma-runner.github.io/
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Browser Testing
+  image_url: https://img.stackshare.io/service/1420/TidYGd6a.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular6/package.json
+  last_updated_by: lor6
+  last_updated_on: 2017-06-25 09:58:09.000000000 Z
+- name: Lando
+  description: 'An open source, local development environment and DevOps tool '
+  website_url: https://docs.devwithlando.io/
+  license: GPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/9663/default_a0119995387263e1035017a5ef7588f261ce82d2.png
+  detection_source: spring-boot-modules/spring-boot-libraries/pom.xml
+  last_updated_by: amit2103
+  last_updated_on: 2019-04-07 18:42:30.000000000 Z
+- name: Log4j
+  description: A Java-based logging utility
+  website_url: https://logging.apache.org/log4j/2.x/
+  version: 1.7.19
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Logging Tools
+  image_url: https://img.stackshare.io/service/2804/Coralogix-log4j-integration.jpg
+  detection_source_url: apache-tapestry/pom.xml
+  detection_source: vraptor/pom.xml
+  last_updated_by: anshul.bansal
+  last_updated_on: 2019-11-09 13:32:22.000000000 Z
+- name: Logback
+  description: A logging framework for Java applications
+  website_url: https://logback.qos.ch/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source: xstream/src/main/resources/logback.xml
+  last_updated_by: amit2103
+  last_updated_on: 2018-08-05 13:10:49.000000000 Z
+- name: Logstash
+  description: Collect, Parse, &amp; Enrich Data
+  website_url: http://logstash.net/
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/1683/preview.png
+  detection_source: jhipster/jhipster-uaa/uaa/pom.xml
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: Mockito
+  description: Tasty mocking framework for unit tests in Java
+  website_url: https://site.mockito.org/
+  version: 3.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg
+  detection_source_url: aws-lambda/todo-reminder/ToDoFunction/pom.xml
+  detection_source: testing-modules/mocks/pom.xml
+  last_updated_by: Ashley Frieze
+  last_updated_on: 2021-05-23 22:48:43.000000000 Z
+- name: Monit
+  description: 'A free, open-source process supervision tool '
+  website_url: https://mmonit.com
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2986/MonitLogo.png
+  detection_source: spring-cloud-bus/spring-cloud-config-server/pom.xml
+  last_updated_by: catalin-burcea
+  last_updated_on: 2019-12-05 14:56:52.000000000 Z
+- name: NGINX
+  description: A high performance free open source web server powering busiest sites
+    on the Internet.
+  website_url: http://nginx.org
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1052/YMxUfyWf.png
+  detection_source: reactive-systems/frontend/nginx.conf
+  last_updated_by: Kumar Chandrakant
+  last_updated_on: 2020-07-14 15:55:54.000000000 Z
+- name: PhantomJS
+  description: Scriptable Headless WebKit
+  website_url: https://phantomjs.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Headless Browsers
+  image_url: https://img.stackshare.io/service/1832/phantomjs.png
+  detection_source: jhipster/jhipster-monolithic/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-05-07 17:00:32.000000000 Z
+- name: Prettier
+  description: 'Prettier is an opinionated code formatter. '
+  website_url: https://prettier.io/
+  version: 1.13.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: Prometheus
+  description: An open-source service monitoring system and time series database,
+    developed by SoundCloud
+  website_url: http://prometheus.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png
+  detection_source: jhipster-5/bookstore-monolith/pom.xml
+  last_updated_by: amit2103
+  last_updated_on: 2019-04-07 18:42:30.000000000 Z
+- name: Protractor
+  description: End-to-end test framework for Angular and AngularJS applications
+  website_url: http://angular.github.io/protractor
+  version: 5.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1754/protractor-logo1.png
+  detection_source_url: reactive-systems/frontend/package-lock.json
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular6/package.json
+  last_updated_by: lor6
+  last_updated_on: 2017-06-25 09:58:09.000000000 Z
+- name: SLF4J
+  description: Simple logging facade for Java
+  website_url: http://slf4j.org/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source: vraptor/pom.xml
+  last_updated_by: Seun Matt
+  last_updated_on: 2017-08-15 12:41:02.000000000 Z
+- name: Scalr
+  description: 'Scalr is a remote state &amp; operations backend for Terraform with
+    access controls and policy as code '
+  website_url: http://scalr.com
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Cloud Management
+  image_url: https://img.stackshare.io/service/222/default_6522a9e0a115f2414dbf9653e22087a2ec20e2a2.png
+  detection_source: image-processing/pom.xml
+  last_updated_by: Maja Joksovic
+  last_updated_on: 2020-07-07 14:58:20.000000000 Z
+- name: Spock Framework
+  description: The Enterprise-ready testing and specification framework
+  website_url: http://spockframework.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/5548/UB74SoK2_400x400.png
+  detection_source: testing-modules/groovy-spock/pom.xml
+  last_updated_by: Anshul Bansal
+  last_updated_on: 2019-09-01 12:51:19.000000000 Z
+- name: TSLint
+  description: An extensible linter for the TypeScript language
+  website_url: https://github.com/palantir/tslint
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/5561/303157.png
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular6/package.json
+  last_updated_by: lor6
+  last_updated_on: 2017-06-25 09:58:09.000000000 Z
+- name: TestNG
+  description: A testing framework inspired from JUnit and NUnit
+  website_url: http://testng.org/doc/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/8900/no-img-open-source.png
+  detection_source: testing-modules/testng/pom.xml
+  last_updated_by: sampadawagde
+  last_updated_on: 2021-05-06 11:44:43.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source: spring-swagger-codegen/spring-swagger-codegen-api-client/.travis.yml
+  last_updated_by: Seun Matt
+  last_updated_on: 2020-03-29 20:36:54.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 4.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: Wildfly
+  description: A Java EE8 Application Server
+  website_url: https://www.wildfly.org/
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/3411/R_inOTNM_400x400.png
+  detection_source: spring-ejb/spring-ejb-client/pom.xml
+  last_updated_by: Allan Vital
+  last_updated_on: 2018-01-07 23:59:53.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-05-07 17:00:32.000000000 Z
+- name: Zipkin
+  description: A distributed tracing system
+  website_url: https://zipkin.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2494/8leuukuhknbc8fj0eg42_400x400.png
+  detection_source: spring-cloud/spring-cloud-bootstrap/zipkin/pom.xml
+  last_updated_by: amit2103
+  last_updated_on: 2018-04-26 12:37:47.000000000 Z
+- name: Zookeeper
+  description: Because coordinating distributed systems is a Zoo
+  website_url: http://zookeeper.apache.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Open Source Service Discovery
+  image_url: https://img.stackshare.io/service/1528/apache-zookeeper.png
+  detection_source: spring-cloud/spring-cloud-zookeeper/HelloWorld/pom.xml
+  last_updated_by: sampadawagde
+  last_updated_on: 2020-06-12 06:39:52.000000000 Z
+- name: Zuul
+  description: An edge service that provides dynamic routing, monitoring, resiliency,
+    security, and more
+  website_url: https://github.com/Netflix/zuul
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Microservices Tools
+  image_url: https://img.stackshare.io/service/2932/zuul.png
+  detection_source: spring-cloud/spring-cloud-zuul/spring-zuul-ui/pom.xml
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-03-21 11:23:41.000000000 Z
+- name: gulp
+  description: The streaming build system
+  website_url: http://gulpjs.com/
+  version: 3.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/844/iruTC031.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: jhipster/jhipster-microservice/gateway-app/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-05-07 17:00:32.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: spring-security-modules/spring-security-web-react/src/main/webapp/WEB-INF/view/react/package.json
+  last_updated_by: aiet
+  last_updated_on: 2018-07-13 14:35:21.000000000 Z
+- name: AWS Lambda
+  description: Automatically run code in response to modifications to objects in Amazon
+    S3 buckets, messages in Kinesis streams, or updates in DynamoDB
+  website_url: http://aws.amazon.com/lambda
+  open_source: false
+  hosted_saas: true
+  category: Application Hosting
+  sub_category: Serverless / Task Processing
+  image_url: https://img.stackshare.io/service/1909/aws-lambda.png
+  detection_source: spring-cloud/spring-cloud-functions/pom.xml
+  last_updated_by: sampadawagde
+  last_updated_on: 2021-04-02 17:16:25.000000000 Z
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source: webrtc/src/main/resources/application.properties
+  last_updated_by: Philippe
+  last_updated_on: 2019-04-02 05:12:55.000000000 Z
+- name: Amazon Kinesis
+  description: Store and process terabytes of data each hour from hundreds of thousands
+    of sources
+  website_url: http://aws.amazon.com/kinesis/
+  open_source: false
+  hosted_saas: true
+  category: Application Utilities
+  sub_category: Real-time Data Processing
+  image_url: https://img.stackshare.io/service/433/default_6bea44ee4da746fbb7c9070a7ffac9b764d1ed79.png
+  detection_source: spring-cloud/spring-cloud-stream/spring-cloud-stream-kinesis/pom.xml
+  last_updated_by: Krzysztof Woyke
+  last_updated_on: 2020-08-25 14:26:31.000000000 Z
+- name: Dataform
+  description: A framework for managing SQL based data operations.
+  website_url: https://dataform.co/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Analytics
+  sub_category: Business Intelligence
+  image_url: https://img.stackshare.io/service/11236/Group_22__3_.png
+  detection_source: video-tutorials/jackson-annotations/pom.xml
+  last_updated_by: Daniel Strmecki
+  last_updated_on: 2021-07-11 13:18:10.000000000 Z
+- name: ANTLR
+  description: Posts by Terence Parr, The ANTLR guy, about ANTLR, StringTemplate,
+    parsing, and general computer language cruft.
+  website_url: http://www.antlr.org/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8585/a159037c4838e54e93d9f630a295c396_normal.jpeg
+  detection_source: Repo Metadata
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source: spring-boot-modules/spring-boot-runtime/docker/Dockerfile
+  last_updated_by: Eric Goebelbecker
+  last_updated_on: 2018-06-13 15:15:57.000000000 Z
+- name: Android OS
+  description: An open source mobile operating system by Google
+  website_url: https://www.android.com
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/9586/ZvmtaSXW_400x400.jpg
+  detection_source: gradle/gradle-employee-app/build.gradle
+  last_updated_by: sasam0320
+  last_updated_on: 2020-04-25 05:32:20.000000000 Z
+- name: Apache Solr
+  description: An open source search platform
+  website_url: http://lucene.apache.org/solr/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search Engines
+  image_url: https://img.stackshare.io/service/4483/default_2e67ca5c691a5ecab8b19ffaeb371128b4266409.png
+  detection_source: persistence-modules/solr/pom.xml
+  last_updated_by: sampadawagde
+  last_updated_on: 2021-05-06 11:44:43.000000000 Z
+- name: AspectJ
+  description: Official Eclipse Foundation Twitter ID
+  website_url: https://eclipse.org/aspectj/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2973/2ugK6PfJ_normal.jpg
+  detection_source: Repo Metadata
+- name: CLIPS
+  description: A Tool for Building Expert Systems
+  website_url: http://www.clipsrules.net/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9768/clipslogo.png
+  detection_source: Repo Metadata
+- name: Elasticsearch
+  description: Open Source, Distributed, RESTful Search Engine
+  website_url: https://www.elastic.co/products/elasticsearch
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png
+  detection_source: persistence-modules/spring-data-elasticsearch/pom.xml
+  last_updated_by: Mathieu Fortin
+  last_updated_on: 2020-05-19 23:48:11.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.4
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: jhipster/jhipster-microservice/car-app/yarn.lock
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular4/package.json
+  last_updated_by: Dhawal Kapil
+  last_updated_on: 2018-08-22 19:47:08.000000000 Z
+- name: Modernizr
+  description: Respond to your user’s browser features
+  website_url: https://modernizr.com/
+  version: 3.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2440/9TeXWBzR_400x400.jpg
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/bower.json
+  detection_source: jhipster/jhipster-microservice/gateway-app/bower.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-05-07 17:00:32.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.22.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: Mongo
+  description: Heroku provides services and tools to build, run, and scale web applications.
+    Follow @herokustatus for platform updates. A @salesforce company.
+  website_url: http://wedesignapps.herokuapp.com
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3519/3wgIDj3j_normal.png
+  detection_source: persistence-modules/spring-data-mongodb/src/live-test/resources/Dockerfile
+  last_updated_by: Sorin Zamfir
+  last_updated_on: 2020-02-01 10:47:34.000000000 Z
+- name: PonyDebugger
+  description: Remote network and data debugging for your native iOS app using Chrome
+    Developer Tools
+  website_url: https://github.com/square/PonyDebugger
+  open_source: true
+  hosted_saas: false
+  category: Mobile
+  sub_category: Mobile Runtime Inspector
+  image_url: https://img.stackshare.io/service/729/Logo.png
+  detection_source: spring-security-modules/spring-security-web-react/src/main/webapp/WEB-INF/view/react/package.json
+  last_updated_by: lor6
+  last_updated_on: 2017-06-25 09:58:09.000000000 Z
+- name: RAML
+  description: RESTful API Modeling Language (RAML) makes it easy to manage the whole
+    API lifecycle from design to sharing
+  website_url: http://raml.org/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: API Tools
+  image_url: https://img.stackshare.io/service/4083/JSGv7dnx.png
+  detection_source: Repo Metadata
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: TensorFlow
+  description: Open Source Software Library for Machine Intelligence
+  website_url: https://www.tensorflow.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Machine Learning Tools
+  image_url: https://img.stackshare.io/service/4717/FtFnqC38_400x400.png
+  detection_source: tensorflow-java/pom.xml
+  last_updated_by: catalin-burcea
+  last_updated_on: 2019-12-05 14:56:52.000000000 Z
+- name: XSLT
+  description: The official Twitter account for the sum of all knowledge, Wikipedia.
+    Overseen by @jeffelder.
+  website_url: https://en.wikipedia.org/wiki/XSLT
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4253/nZXfdUQq_normal.jpg
+  detection_source: Repo Metadata
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: lint-staged
+  website_url: https://github.com/okonet/lint-staged
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: solidity
+  description: How people build software
+  website_url: https://ethereum.github.io/solidity/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4959/1__IS8pZzkhvd6kUbSFpSgag.png
+  detection_source: Repo Metadata
+- name: xmlunit
+  website_url: https://www.xmlunit.org/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9143/no-img-open-source.png
+  detection_source: testing-modules/xmlunit-2/pom.xml
+  last_updated_by: catalin-burcea
+  last_updated_on: 2019-12-05 14:56:52.000000000 Z
+- name: "@angular-devkit/build-angular"
+  description: Angular Webpack Build Facade
+  package_url: https://www.npmjs.com/@angular-devkit/build-angular
+  version: 0.901.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16162/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: reactive-systems/frontend/package-lock.json
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular6/package.json
+  last_updated_by: Kumar Chandrakant
+  last_updated_on: 2020-07-14 15:55:54.000000000 Z
+- name: "@angular/animations"
+  description: Angular - animations integration with web-animations
+  package_url: https://www.npmjs.com/@angular/animations
+  version: 9.1.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16010/default_af9df0bc9fa88191d2fe609204c5bd7599c1a797.png
+  detection_source_url: reactive-systems/frontend/package-lock.json
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular6/package.json
+  last_updated_by: lor6
+  last_updated_on: 2017-06-25 09:58:09.000000000 Z
+- name: "@angular/cli"
+  description: CLI tool for Angular
+  package_url: https://www.npmjs.com/@angular/cli
+  version: 6.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16000/default_976847109ccfe67d00b33d9ff71329b6e82f5f89.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular6/package.json
+  last_updated_by: lor6
+  last_updated_on: 2017-06-25 09:58:09.000000000 Z
+- name: "@angular/common"
+  description: Angular - commonly needed directives and services
+  package_url: https://www.npmjs.com/@angular/common
+  version: 6.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15913/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular6/package.json
+  last_updated_by: lor6
+  last_updated_on: 2017-06-25 09:58:09.000000000 Z
+- name: "@angular/compiler"
+  description: Angular - the compiler library
+  package_url: https://www.npmjs.com/@angular/compiler
+  version: 6.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15917/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular6/package.json
+  last_updated_by: lor6
+  last_updated_on: 2017-06-25 09:58:09.000000000 Z
+- name: "@angular/compiler-cli"
+  description: Angular - the compiler CLI for Node.js
+  package_url: https://www.npmjs.com/@angular/compiler-cli
+  version: 6.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15927/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular6/package.json
+  last_updated_by: lor6
+  last_updated_on: 2017-06-25 09:58:09.000000000 Z
+- name: "@angular/forms"
+  description: Angular - directives and services for creating forms
+  package_url: https://www.npmjs.com/@angular/forms
+  version: 6.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15944/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular6/package.json
+  last_updated_by: lor6
+  last_updated_on: 2017-06-25 09:58:09.000000000 Z
+- name: "@angular/http"
+  description: Angular - the http service
+  package_url: https://www.npmjs.com/@angular/http
+  version: 5.2.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15977/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: spring-boot-modules/spring-boot-angular/src/main/js/application/package-lock.json
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular6/package.json
+  last_updated_by: lor6
+  last_updated_on: 2017-06-25 09:58:09.000000000 Z
+- name: "@angular/language-service"
+  description: Angular - language services
+  package_url: https://www.npmjs.com/@angular/language-service
+  version: 5.2.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16047/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source_url: spring-boot-modules/spring-boot-angular/src/main/js/application/package-lock.json
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular6/package.json
+  last_updated_by: lor6
+  last_updated_on: 2017-06-25 09:58:09.000000000 Z
+- name: "@angular/platform-browser"
+  description: Angular - library for using Angular in a web browser
+  package_url: https://www.npmjs.com/@angular/platform-browser
+  version: 6.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15921/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular6/package.json
+  last_updated_by: lor6
+  last_updated_on: 2017-06-25 09:58:09.000000000 Z
+- name: "@angular/platform-browser-dynamic"
+  description: Angular - library for using Angular in a web browser with JIT compilation
+  package_url: https://www.npmjs.com/@angular/platform-browser-dynamic
+  version: 6.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15933/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular6/package.json
+  last_updated_by: lor6
+  last_updated_on: 2017-06-25 09:58:09.000000000 Z
+- name: "@angular/router"
+  description: Angular - the routing library
+  package_url: https://www.npmjs.com/@angular/router
+  version: 6.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15965/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular6/package.json
+  last_updated_by: lor6
+  last_updated_on: 2017-06-25 09:58:09.000000000 Z
+- name: "@angular/upgrade"
+  description: Angular - the library for easing update from v1 to v2
+  package_url: https://www.npmjs.com/@angular/upgrade
+  version: 2.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17266/default_b2015e9577d171c4c3f12c3c8d253c01fe63ba8d.png
+  detection_source_url: spring-security-modules/spring-security-web-angular/client/angular2/package.json
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular2/package.json
+  last_updated_by: Tino Mulanchira Thomas
+  last_updated_on: 2018-07-13 20:14:12.000000000 Z
+- name: "@fortawesome/fontawesome-svg-core"
+  description: The iconic font, CSS, and SVG framework
+  package_url: https://www.npmjs.com/@fortawesome/fontawesome-svg-core
+  version: 1.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16644/default_50c9ed1615a25628505ab53def64d82450ced26b.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: "@fortawesome/free-solid-svg-icons"
+  description: The iconic font, CSS, and SVG framework
+  package_url: https://www.npmjs.com/@fortawesome/free-solid-svg-icons
+  version: 5.3.1
+  license: CC-BY-4.0,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16683/default_6dad4e42e12d47cc6edfbdea036dae12f91abebb.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: "@ng-bootstrap/ng-bootstrap"
+  description: Angular powered Bootstrap
+  package_url: https://www.npmjs.com/@ng-bootstrap/ng-bootstrap
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17486/default_10a98ebc0146ab94b0fde6f7013c1279c82e4135.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: "@ngtools/webpack"
+  description: Webpack plugin that AoT compiles your Angular components and modules
+  package_url: https://www.npmjs.com/@ngtools/webpack
+  version: 6.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17713/default_148ef251371a47f69a7acad9f3b25e2ec2ee4aa4.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: "@ngx-translate/core"
+  description: The internationalization
+  package_url: https://www.npmjs.com/@ngx-translate/core
+  version: 10.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17411/default_11ae83a8e74ae9812850843051a0501a3bb5313f.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster-5/bookstore-monolith/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: "@ngx-translate/http-loader"
+  description: A loader for ngx-translate that loads translations using http
+  package_url: https://www.npmjs.com/@ngx-translate/http-loader
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18279/default_807e706fb4295a0b54623f7e1643199bb97a2590.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster-5/bookstore-monolith/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: "@testing-library/jest-dom"
+  description: Custom jest matchers to test the state of the DOM
+  package_url: https://www.npmjs.com/@testing-library/jest-dom
+  version: 5.11.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: spring-boot-modules/spring-boot-react/frontend/package-lock.json
+  detection_source: spring-boot-modules/spring-boot-react/frontend/package.json
+  last_updated_by: Sallo Szrajbman
+  last_updated_on: 2021-03-28 16:00:33.000000000 Z
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  version: 11.2.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: spring-boot-modules/spring-boot-react/frontend/package-lock.json
+  detection_source: spring-boot-modules/spring-boot-react/frontend/package.json
+  last_updated_by: Sallo Szrajbman
+  last_updated_on: 2021-03-28 16:00:33.000000000 Z
+- name: "@types/jasmine"
+  description: TypeScript definitions for Jasmine
+  package_url: https://www.npmjs.com/@types/jasmine
+  version: 3.5.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15924/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: reactive-systems/frontend/package-lock.json
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular6/package.json
+  last_updated_by: lor6
+  last_updated_on: 2017-06-25 09:58:09.000000000 Z
+- name: "@types/jasminewd2"
+  description: TypeScript definitions for jasminewd2
+  package_url: https://www.npmjs.com/@types/jasminewd2
+  version: 2.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16060/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source_url: reactive-systems/frontend/package-lock.json
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular6/package.json
+  last_updated_by: Kumar Chandrakant
+  last_updated_on: 2020-07-14 15:55:54.000000000 Z
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 22.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: "@types/lodash"
+  description: TypeScript definitions for Lo-Dash
+  package_url: https://www.npmjs.com/@types/lodash
+  version: 4.14.66
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15945/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: spring-security-modules/spring-security-web-angular/client/angular4/package.json
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular4/package.json
+  last_updated_by: Tino Mulanchira Thomas
+  last_updated_on: 2018-07-13 20:14:12.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 9.4.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular6/package.json
+  last_updated_by: lor6
+  last_updated_on: 2017-06-25 09:58:09.000000000 Z
+- name: "@types/selenium-webdriver"
+  description: TypeScript definitions for Selenium WebDriverJS
+  package_url: https://www.npmjs.com/@types/selenium-webdriver
+  version: 3.0.17
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17263/default_78541a280e8cac42279d6c363e71e5b8f462e962.png
+  detection_source_url: reactive-systems/frontend/package-lock.json
+  detection_source: jhipster/jhipster-monolithic/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-03-21 11:23:41.000000000 Z
+- name: add-asset-html-webpack-plugin
+  description: Add a JS or CSS assets to a generated HTML file
+  package_url: https://www.npmjs.com/add-asset-html-webpack-plugin
+  version: 1.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18022/default_d8756eea8d13a271fb42437ffb36c0a116d72925.png
+  detection_source_url: jhipster/jhipster-monolithic/package.json
+  detection_source: jhipster/jhipster-monolithic/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-03-21 11:23:41.000000000 Z
+- name: angular2-template-loader
+  description: Angular2 webpack loader that inlines your angular2 templates and stylesheets
+    into angular components
+  package_url: https://www.npmjs.com/angular2-template-loader
+  version: 0.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16579/default_5a21421012fa20e57fe0aeab31228f42e7118abc.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: awesome-typescript-loader
+  description: Awesome TS loader for webpack
+  package_url: https://www.npmjs.com/awesome-typescript-loader
+  version: 3.0.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16085/default_d947c1690e032a288145c7e2491999eab3ea8ede.png
+  detection_source_url: jhipster/jhipster-monolithic/package.json
+  detection_source: jhipster/jhipster-monolithic/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-03-21 11:23:41.000000000 Z
+- name: bower
+  description: The browser package manager
+  package_url: https://www.npmjs.com/bower
+  version: 1.7.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16205/default_b4f5b6f31c5ab1ffee4bacf20842cd41a8f2658d.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: jhipster/jhipster-microservice/gateway-app/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-05-07 17:00:32.000000000 Z
+  vulnerabilities:
+  - name: Symlink Arbitrary File Overwrite in bower
+    cve_id: CVE-2019-5484
+    cve_url: https://github.com/advisories/GHSA-p6mr-pxg4-68hx
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.8.8
+- name: browser-sync
+  description: Live CSS Reload &amp; Browser Syncing
+  package_url: https://www.npmjs.com/browser-sync
+  version: 2.17.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16034/default_a9b6ac3c2fe43713f9a8e43d4668d0352ad0d247.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: browser-sync-webpack-plugin
+  description: BrowserSync and Webpack integration
+  package_url: https://www.npmjs.com/browser-sync-webpack-plugin
+  version: 2.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18027/default_7826192e433c1035ad42082e7f65b825c34bb056.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: cache-loader
+  description: Caches the result of following loaders on disk
+  package_url: https://www.npmjs.com/cache-loader
+  version: 1.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17685/default_43c2244142d473ead35e8e5c22850dfec0a06c35.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: codelyzer
+  description: Linting for Angular applications
+  package_url: https://www.npmjs.com/codelyzer
+  version: 4.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15956/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular6/package.json
+  last_updated_by: lor6
+  last_updated_on: 2017-06-25 09:58:09.000000000 Z
+- name: concurrently
+  description: Run commands concurrently
+  package_url: https://www.npmjs.com/concurrently
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16041/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: spring-security-modules/spring-security-web-angular/client/angular2/package.json
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular2/package.json
+  last_updated_by: Tino Mulanchira Thomas
+  last_updated_on: 2018-07-13 20:14:12.000000000 Z
+- name: copy-webpack-plugin
+  description: Copy files &amp;&amp; directories with webpack
+  package_url: https://www.npmjs.com/copy-webpack-plugin
+  version: 4.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15941/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: core-js
+  description: Standard library
+  package_url: https://www.npmjs.com/core-js
+  version: 2.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15869/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular6/package.json
+  last_updated_by: lor6
+  last_updated_on: 2017-06-25 09:58:09.000000000 Z
+- name: del
+  description: Delete files and directories
+  package_url: https://www.npmjs.com/del
+  version: 2.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15907/default_a582b9fecca65f37fe68520c8f84d3bcae35db24.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: jhipster/jhipster-monolithic/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-05-07 17:00:32.000000000 Z
+- name: eslint-plugin-angular
+  description: ESLint rules for AngularJS projects
+  package_url: https://www.npmjs.com/eslint-plugin-angular
+  version: 1.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18121/image.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: jhipster/jhipster-microservice/gateway-app/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-05-07 17:00:32.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.23.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: spring-boot-modules/spring-boot-react/frontend/package-lock.json
+  detection_source: spring-security-modules/spring-security-web-react/src/main/webapp/WEB-INF/view/react/package.json
+  last_updated_by: aiet
+  last_updated_on: 2018-07-13 14:35:21.000000000 Z
+- name: event-stream
+  description: Construct pipes of streams of events
+  package_url: https://www.npmjs.com/event-stream
+  version: 3.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16246/default_dc80ff0a17bac19253430a4f0f586714841116db.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: jhipster/jhipster-monolithic/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-05-07 17:00:32.000000000 Z
+- name: exports-loader
+  description: Exports loader module for webpack
+  package_url: https://www.npmjs.com/exports-loader
+  version: 0.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16572/default_aaf5839b9bd35cf60ebf8e1b59d64d8e3b398aaa.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-03-21 11:23:41.000000000 Z
+- name: extract-text-webpack-plugin
+  description: Extract text from bundle into a file
+  package_url: https://www.npmjs.com/extract-text-webpack-plugin
+  version: 3.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15855/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: spring-boot-modules/spring-boot-angular/src/main/js/application/package-lock.json
+  detection_source: jhipster/jhipster-monolithic/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-03-21 11:23:41.000000000 Z
+- name: file-loader
+  description: A file loader module for webpack
+  package_url: https://www.npmjs.com/file-loader
+  version: 1.1.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15834/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: font-awesome
+  description: The iconic font and CSS framework
+  package_url: https://www.npmjs.com/font-awesome
+  version: 4.7.0
+  license: OFL-1.1,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16160/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: jhipster/jhipster-monolithic/package.json
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular4/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-03-21 11:23:41.000000000 Z
+- name: fork-ts-checker-webpack-plugin
+  description: Runs typescript type checker and linter on separate process
+  package_url: https://www.npmjs.com/fork-ts-checker-webpack-plugin
+  version: 0.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16622/default_5a21421012fa20e57fe0aeab31228f42e7118abc.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: friendly-errors-webpack-plugin
+  description: Recognizes certain classes of webpack errors and cleans
+  package_url: https://www.npmjs.com/friendly-errors-webpack-plugin
+  version: 1.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16091/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: gulp-angular-templatecache
+  description: Concatenates and registers AngularJS templates in the $templateCache
+  package_url: https://www.npmjs.com/gulp-angular-templatecache
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17255/default_9aa9c9d4e491c9d2d70df74bfa33cf525babb7f5.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: jhipster/jhipster-microservice/gateway-app/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-05-07 17:00:32.000000000 Z
+- name: gulp-autoprefixer
+  description: Prefix CSS
+  package_url: https://www.npmjs.com/gulp-autoprefixer
+  version: 3.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16090/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: jhipster/jhipster-microservice/gateway-app/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-05-07 17:00:32.000000000 Z
+- name: gulp-changed
+  description: Only pass through changed files
+  package_url: https://www.npmjs.com/gulp-changed
+  version: 1.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16619/default_8bb559d64720e298d7108ccd64281e535c1c76a8.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: jhipster/jhipster-microservice/gateway-app/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-05-07 17:00:32.000000000 Z
+- name: gulp-cssnano
+  description: Minify CSS with cssnano
+  package_url: https://www.npmjs.com/gulp-cssnano
+  version: 2.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16774/default_cc1793e454d6d035c188f0198b037d58f372e7f2.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: jhipster/jhipster-microservice/gateway-app/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-05-07 17:00:32.000000000 Z
+- name: gulp-eslint
+  description: A gulp plugin for processing files with ESLint
+  package_url: https://www.npmjs.com/gulp-eslint
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16009/default_cbd6c289400672b291755183817e9dd6abe1a612.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: jhipster/jhipster-microservice/gateway-app/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-05-07 17:00:32.000000000 Z
+- name: gulp-flatten
+  description: Remove or replace relative path for files
+  package_url: https://www.npmjs.com/gulp-flatten
+  version: 0.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17193/default_21a9522c66101ebad0e63609af74acb35fe29a0a.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: jhipster/jhipster-microservice/gateway-app/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-05-07 17:00:32.000000000 Z
+- name: gulp-footer
+  description: Gulp extension to add footer to file
+  package_url: https://www.npmjs.com/gulp-footer
+  version: 1.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18025/default_881568560aeb42159fa3e2686c3bfee1f835fc40.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: jhipster/jhipster-microservice/gateway-app/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-05-07 17:00:32.000000000 Z
+- name: gulp-htmlmin
+  description: Gulp plugin to minify HTML
+  package_url: https://www.npmjs.com/gulp-htmlmin
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16821/default_9a5182350af29cb82b3344853e865051f508ac6c.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: jhipster/jhipster-microservice/gateway-app/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-05-07 17:00:32.000000000 Z
+- name: gulp-if
+  description: Conditionally run a task
+  package_url: https://www.npmjs.com/gulp-if
+  version: 2.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16211/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: jhipster/jhipster-microservice/gateway-app/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-05-07 17:00:32.000000000 Z
+- name: gulp-imagemin
+  description: Minify PNG, JPEG, GIF and SVG images
+  package_url: https://www.npmjs.com/gulp-imagemin
+  version: 3.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16485/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: jhipster/jhipster-microservice/gateway-app/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-05-07 17:00:32.000000000 Z
+- name: gulp-inject
+  description: A javascript, stylesheet and webcomponent injection plugin for Gulp,
+    i.e
+  package_url: https://www.npmjs.com/gulp-inject
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17107/default_cd46073ead3b39efb82d67472bd530a8fbcbda52.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: jhipster/jhipster-microservice/gateway-app/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-05-07 17:00:32.000000000 Z
+- name: gulp-ng-annotate
+  description: Add angularjs dependency injection annotations with ng-annotate
+  package_url: https://www.npmjs.com/gulp-ng-annotate
+  version: 2.0.0
+  license: CC0-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16996/default_7a9e63a9526bf5da91e7a6f9f792b13e3543a875.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: jhipster/jhipster-microservice/gateway-app/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-05-07 17:00:32.000000000 Z
+- name: gulp-notify
+  description: Gulp plugin to send messages based on Vinyl Files or Errors to Mac
+    OS X, Linux or Windows using the node-notifier module
+  package_url: https://www.npmjs.com/gulp-notify
+  version: 2.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16337/default_19913b5a2ce8aaeed5a69f95974f9afd07e8e8bc.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: jhipster/jhipster-microservice/gateway-app/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-05-07 17:00:32.000000000 Z
+- name: gulp-plumber
+  description: Prevent pipe breaking caused by errors from gulp plugins
+  package_url: https://www.npmjs.com/gulp-plumber
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16033/default_72d4237e6719b7d75d0307bf8b5718584fdc3425.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: jhipster/jhipster-microservice/gateway-app/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-05-07 17:00:32.000000000 Z
+- name: gulp-rename
+  description: Rename files
+  package_url: https://www.npmjs.com/gulp-rename
+  version: 1.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15895/default_e4668902f8489350db9b0fb228523a571ef05b26.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: jhipster/jhipster-microservice/gateway-app/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-05-07 17:00:32.000000000 Z
+- name: gulp-replace
+  description: A string replace plugin for gulp
+  package_url: https://www.npmjs.com/gulp-replace
+  version: 0.5.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16150/default_73326c44fbfa7369fd17573edb113e5d849468bc.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: jhipster/jhipster-microservice/gateway-app/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-05-07 17:00:32.000000000 Z
+- name: gulp-rev
+  description: 'Static asset revisioning by appending content hash to filenames: unicorn.css
+    =&gt; unicorn-d41d8cd98f.css'
+  package_url: https://www.npmjs.com/gulp-rev
+  version: 7.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17180/default_fbe883dfc6d978f82179fa11bdf634af1b6751fa.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: jhipster/jhipster-microservice/gateway-app/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-05-07 17:00:32.000000000 Z
+- name: gulp-rev-replace
+  description: Rewrite occurences of filenames which have been renamed by gulp-rev
+  package_url: https://www.npmjs.com/gulp-rev-replace
+  version: 0.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18237/default_b102609c7a7fb86f3c2ca3ec026f3011d275978b.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: jhipster/jhipster-microservice/gateway-app/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-05-07 17:00:32.000000000 Z
+- name: gulp-sourcemaps
+  description: Source map support for Gulp.js
+  package_url: https://www.npmjs.com/gulp-sourcemaps
+  version: 1.6.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15958/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: jhipster/jhipster-microservice/gateway-app/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-05-07 17:00:32.000000000 Z
+- name: gulp-uglify
+  description: Minify files with UglifyJS
+  package_url: https://www.npmjs.com/gulp-uglify
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15910/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: jhipster/jhipster-microservice/gateway-app/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-05-07 17:00:32.000000000 Z
+- name: gulp-useref
+  description: Parse build blocks in HTML files to replace references to non-optimized
+    scripts or stylesheets
+  package_url: https://www.npmjs.com/gulp-useref
+  version: 3.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17520/default_0b7f20f712cc7ba96f6445246813407719ce8f32.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: jhipster/jhipster-microservice/gateway-app/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-05-07 17:00:32.000000000 Z
+- name: html-loader
+  description: Html loader module for webpack
+  package_url: https://www.npmjs.com/html-loader
+  version: 0.5.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16055/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: html-webpack-plugin
+  description: Simplifies creation of HTML files to serve your webpack bundles
+  package_url: https://www.npmjs.com/html-webpack-plugin
+  version: 3.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15841/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: image-webpack-loader
+  description: Image loader module for webpack
+  package_url: https://www.npmjs.com/image-webpack-loader
+  version: 3.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16668/default_e3c0987b80983280e46e6e1723fcfcff50fa4824.png
+  detection_source_url: jhipster/jhipster-monolithic/package.json
+  detection_source: jhipster/jhipster-monolithic/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-03-21 11:23:41.000000000 Z
+- name: jasmine-core
+  description: Official packaging of Jasmine's core files for use by Node.js projects
+  package_url: https://www.npmjs.com/jasmine-core
+  version: 2.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15905/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular6/package.json
+  last_updated_by: lor6
+  last_updated_on: 2017-06-25 09:58:09.000000000 Z
+- name: jasmine-reporters
+  description: Reporters for the Jasmine BDD Framework
+  package_url: https://www.npmjs.com/jasmine-reporters
+  version: 2.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17569/default_661ab15cb9ea1663765f3e16ee70a1d2d50118d1.png
+  detection_source_url: jhipster/jhipster-monolithic/package.json
+  detection_source: jhipster/jhipster-monolithic/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-03-21 11:23:41.000000000 Z
+- name: jasmine-spec-reporter
+  description: Spec reporter for jasmine behavior-driven development framework
+  package_url: https://www.npmjs.com/jasmine-spec-reporter
+  version: 4.2.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16066/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
+  detection_source_url: reactive-systems/frontend/package-lock.json
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular6/package.json
+  last_updated_by: lor6
+  last_updated_on: 2017-06-25 09:58:09.000000000 Z
+- name: jest-junit
+  description: A jest reporter that generates junit xml files
+  package_url: https://www.npmjs.com/jest-junit
+  version: 5.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16536/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: karma-chrome-launcher
+  description: A Karma plugin. Launcher for Chrome and Chrome Canary
+  package_url: https://www.npmjs.com/karma-chrome-launcher
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15860/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular6/package.json
+  last_updated_by: lor6
+  last_updated_on: 2017-06-25 09:58:09.000000000 Z
+- name: karma-cli
+  description: The Karma command line interface
+  package_url: https://www.npmjs.com/karma-cli
+  version: 1.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16104/default_efe4f0184d007a28e793d89a59e058b742bc9177.png
+  detection_source_url: guest/webservices/rest-client/rest-client/package.json
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular5/package.json
+  last_updated_by: lor6
+  last_updated_on: 2017-06-25 09:58:09.000000000 Z
+- name: karma-coverage
+  description: A Karma plugin. Generate code coverage
+  package_url: https://www.npmjs.com/karma-coverage
+  version: 1.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15951/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: jhipster/jhipster-monolithic/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-05-07 17:00:32.000000000 Z
+- name: karma-coverage-istanbul-reporter
+  description: A karma reporter that uses the latest istanbul 1.x APIs
+  package_url: https://www.npmjs.com/karma-coverage-istanbul-reporter
+  version: 2.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15998/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: reactive-systems/frontend/package-lock.json
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular6/package.json
+  last_updated_by: lor6
+  last_updated_on: 2017-06-25 09:58:09.000000000 Z
+- name: karma-jasmine
+  description: A Karma plugin - adapter for Jasmine testing framework
+  package_url: https://www.npmjs.com/karma-jasmine
+  version: 1.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15886/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular6/package.json
+  last_updated_by: lor6
+  last_updated_on: 2017-06-25 09:58:09.000000000 Z
+- name: karma-jasmine-html-reporter
+  description: A Karma plugin
+  package_url: https://www.npmjs.com/karma-jasmine-html-reporter
+  version: 1.5.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15999/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
+  detection_source_url: reactive-systems/frontend/package-lock.json
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular6/package.json
+  last_updated_by: lor6
+  last_updated_on: 2017-06-25 09:58:09.000000000 Z
+- name: karma-junit-reporter
+  description: A Karma plugin. Report results in junit xml format
+  package_url: https://www.npmjs.com/karma-junit-reporter
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16695/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: jhipster/jhipster-monolithic/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-05-07 17:00:32.000000000 Z
+- name: karma-phantomjs-launcher
+  description: A Karma plugin. Launcher for PhantomJS
+  package_url: https://www.npmjs.com/karma-phantomjs-launcher
+  version: 1.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15947/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: jhipster/jhipster-monolithic/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-05-07 17:00:32.000000000 Z
+- name: karma-remap-istanbul
+  description: Call remap-istanbul as a karma reporter
+  package_url: https://www.npmjs.com/karma-remap-istanbul
+  version: 0.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16981/default_3823aba25646a3f105cc15ee9df24fdf78972314.png
+  detection_source_url: jhipster/jhipster-monolithic/package.json
+  detection_source: jhipster/jhipster-monolithic/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-03-21 11:23:41.000000000 Z
+- name: karma-script-launcher
+  description: A Karma plugin. Launcher for shell scripts
+  package_url: https://www.npmjs.com/karma-script-launcher
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17382/default_b39374c3a74b433364bfdbff07be26214bf186fd.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: jhipster/jhipster-microservice/gateway-app/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-05-07 17:00:32.000000000 Z
+- name: karma-sourcemap-loader
+  description: Karma plugin that locates and loads existing javascript source map
+    files
+  package_url: https://www.npmjs.com/karma-sourcemap-loader
+  version: 0.3.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16011/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
+  detection_source_url: jhipster/jhipster-monolithic/package.json
+  detection_source: jhipster/jhipster-monolithic/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-03-21 11:23:41.000000000 Z
+- name: karma-webpack
+  description: Use webpack with karma
+  package_url: https://www.npmjs.com/karma-webpack
+  version: 2.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15955/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: jhipster/jhipster-monolithic/package.json
+  detection_source: jhipster/jhipster-monolithic/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-03-21 11:23:41.000000000 Z
+- name: lazypipe
+  description: Use to create an immutable
+  package_url: https://www.npmjs.com/lazypipe
+  version: 1.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18034/default_d8756eea8d13a271fb42437ffb36c0a116d72925.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: jhipster/jhipster-monolithic/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-05-07 17:00:32.000000000 Z
+- name: lite-server
+  description: Lightweight development node server for serving a web app
+  package_url: https://www.npmjs.com/lite-server
+  version: 2.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16577/default_9d292a50abc76f1f74581b311ad930a616b1785c.png
+  detection_source_url: spring-security-modules/spring-security-web-angular/client/angular2/package.json
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular2/package.json
+  last_updated_by: Tino Mulanchira Thomas
+  last_updated_on: 2018-07-13 20:14:12.000000000 Z
+  vulnerabilities:
+  - name: lite-server vulnerable to Denial of Service
+    cve_id: CVE-2022-25940
+    cve_url: https://github.com/advisories/GHSA-89w7-5q45-r53w
+    detected_date: Dec 21
+    severity: high
+    first_patched: 
+- name: main-bower-files
+  description: Get main files from your installed bower packages
+  package_url: https://www.npmjs.com/main-bower-files
+  version: 2.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17637/default_e1c4f2497325ac0d57aca0c3473ca18d24eb8a13.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: jhipster/jhipster-microservice/gateway-app/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-05-07 17:00:32.000000000 Z
+- name: map-stream
+  description: Construct pipes of streams of events
+  package_url: https://www.npmjs.com/map-stream
+  version: 0.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17036/default_0e6669b56ffe7d68d8118eb8e85d024215fd5906.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: jhipster/jhipster-monolithic/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-05-07 17:00:32.000000000 Z
+- name: mini-css-extract-plugin
+  description: Extracts CSS into separate files
+  package_url: https://www.npmjs.com/mini-css-extract-plugin
+  version: 0.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15992/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.22.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+  vulnerabilities:
+  - name: 'Path Traversal: ''dir/../../filename'' in moment.locale'
+    cve_id: CVE-2022-24785
+    cve_url: https://github.com/advisories/GHSA-8hfj-j24r-96c4
+    detected_date: Apr 9
+    severity: high
+    first_patched: 2.29.2
+  - name: Moment.js vulnerable to Inefficient Regular Expression Complexity
+    cve_id: CVE-2022-31129
+    cve_url: https://github.com/advisories/GHSA-wc69-rhjr-hc9g
+    detected_date: Jul 7
+    severity: high
+    first_patched: 2.29.4
+- name: node-sass
+  description: Wrapper around libsass
+  package_url: https://www.npmjs.com/node-sass
+  version: 4.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15827/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: spring-boot-modules/spring-boot-angular/src/main/js/application/package-lock.json
+  detection_source: jhipster/jhipster-monolithic/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-03-21 11:23:41.000000000 Z
+  vulnerabilities:
+  - name: Improper Certificate Validation in node-sass
+    cve_id: CVE-2020-24025
+    cve_url: https://github.com/advisories/GHSA-r8f7-9pfq-mjmv
+    detected_date: Feb 10
+    severity: moderate
+    first_patched: 7.0.0
+  - name: Denial of Service in node-sass
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-9v62-24cr-58cx
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.13.1
+- name: optimize-css-assets-webpack-plugin
+  description: A Webpack plugin to optimize \ minimize CSS assets
+  package_url: https://www.npmjs.com/optimize-css-assets-webpack-plugin
+  version: 5.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15964/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: phantomjs-prebuilt
+  description: Headless WebKit with JS API
+  package_url: https://www.npmjs.com/phantomjs-prebuilt
+  version: 2.1.12
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16054/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: jhipster/jhipster-monolithic/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-05-07 17:00:32.000000000 Z
+- name: postcss-loader
+  description: PostCSS loader for webpack
+  package_url: https://www.npmjs.com/postcss-loader
+  version: 2.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15876/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: prop-types
+  description: Runtime type checking for React props and similar objects
+  package_url: https://www.npmjs.com/prop-types
+  version: 15.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15843/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: spring-boot-modules/spring-boot-react/frontend/package-lock.json
+  detection_source: spring-security-modules/spring-security-web-react/src/main/webapp/WEB-INF/view/react/package.json
+  last_updated_by: aiet
+  last_updated_on: 2018-07-13 14:35:21.000000000 Z
+- name: raw-loader
+  description: A loader for webpack that allows importing files as a String
+  package_url: https://www.npmjs.com/raw-loader
+  version: 0.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16030/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-03-21 11:23:41.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 0.14.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: spring-security-modules/spring-security-web-react/src/main/webapp/WEB-INF/view/react/package.json
+  last_updated_by: Sallo Szrajbman
+  last_updated_on: 2021-03-28 16:00:33.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 4.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: spring-boot-modules/spring-boot-react/frontend/package-lock.json
+  detection_source: spring-boot-modules/spring-boot-react/frontend/package.json
+  last_updated_by: Sallo Szrajbman
+  last_updated_on: 2021-03-28 16:00:33.000000000 Z
+- name: react-scripts
+  description: Configuration and scripts for Create React App
+  package_url: https://www.npmjs.com/react-scripts
+  version: 4.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: spring-boot-modules/spring-boot-react/frontend/package-lock.json
+  detection_source: spring-security-modules/spring-security-web-react/src/main/webapp/WEB-INF/view/react/package.json
+  last_updated_by: Sallo Szrajbman
+  last_updated_on: 2021-03-28 16:00:33.000000000 Z
+- name: reflect-metadata
+  description: Polyfill for Metadata Reflection API
+  package_url: https://www.npmjs.com/reflect-metadata
+  version: 0.1.12
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16019/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular2/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 2.6.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: jhipster/jhipster-microservice/car-app/yarn.lock
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: run-sequence
+  description: Run a series of dependent gulp tasks in order
+  package_url: https://www.npmjs.com/run-sequence
+  version: 1.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16004/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: jhipster/jhipster-monolithic/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-05-07 17:00:32.000000000 Z
+- name: rxjs-compat
+  description: '&lt;img src="doc/asset/Rx_Logo_S.png" alt="RxJS Logo" width="86" height="86"&gt;
+    RxJS: Reactive Extensions For JavaScript =================='
+  package_url: https://www.npmjs.com/rxjs-compat
+  version: 6.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16746/default_6e51a44775c61dcb2888547ad406a2f0cf2c344e.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: psevestre
+  last_updated_on: 2018-11-03 16:00:06.000000000 Z
+- name: sass-loader
+  description: Sass loader for webpack
+  package_url: https://www.npmjs.com/sass-loader
+  version: 7.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15842/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: style-loader
+  description: Style loader module for webpack
+  package_url: https://www.npmjs.com/style-loader
+  version: 0.20.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15822/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: systemjs
+  description: Dynamic ES module loader
+  package_url: https://www.npmjs.com/systemjs
+  version: 0.20.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16299/default_8b65a873fd3277d73483d6846fa38192391abf23.png
+  detection_source_url: spring-security-modules/spring-security-web-angular/client/angular2/package.json
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular2/package.json
+  last_updated_by: Tino Mulanchira Thomas
+  last_updated_on: 2018-07-13 20:14:12.000000000 Z
+- name: tapable
+  description: Just a little module for plugins
+  package_url: https://www.npmjs.com/tapable
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18146/default_c46cee4dfdfafab2078adf69e5cf195ebb810a13.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: psevestre
+  last_updated_on: 2018-11-03 16:00:06.000000000 Z
+- name: terser-webpack-plugin
+  description: Terser plugin for webpack
+  package_url: https://www.npmjs.com/terser-webpack-plugin
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16143/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: tether
+  description: A client-side library to make absolutely positioned elements attach
+    to elements in the page efficiently
+  package_url: https://www.npmjs.com/tether
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17789/default_a53af9d6b5a4c8c6e8d5f8494d76a8d2efd3e660.png
+  detection_source_url: jhipster/jhipster-monolithic/package.json
+  detection_source: jhipster/jhipster-monolithic/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-03-21 11:23:41.000000000 Z
+- name: thread-loader
+  description: Runs the following loaders in a worker pool
+  package_url: https://www.npmjs.com/thread-loader
+  version: 1.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17547/default_809f38c280e61a39329e5ca5d8a16d8966425895.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: to-string-loader
+  description: To-string loader for webpack
+  package_url: https://www.npmjs.com/to-string-loader
+  version: 1.1.5
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16800/default_6e51a44775c61dcb2888547ad406a2f0cf2c344e.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: ts-loader
+  description: TypeScript loader for webpack
+  package_url: https://www.npmjs.com/ts-loader
+  version: 4.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15938/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 8.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: reactive-systems/frontend/package-lock.json
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular6/package.json
+  last_updated_by: lor6
+  last_updated_on: 2017-06-25 09:58:09.000000000 Z
+- name: tslib
+  description: Runtime library for TypeScript helper functions
+  package_url: https://www.npmjs.com/tslib
+  version: 1.9.3
+  license: 0BSD
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15853/default_97d4687bd07ff1bb963fd566c84e7cbf7c73bbee.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: reactive-systems/frontend/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: tslint-config-prettier
+  description: Do you wanna use tslint and prettier without conflicts? tslint-config-prettier
+    disables all conflicting rules that may cause such problems
+  package_url: https://www.npmjs.com/tslint-config-prettier
+  version: 1.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16083/default_d947c1690e032a288145c7e2491999eab3ea8ede.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: tslint-loader
+  description: Tslint loader for webpack
+  package_url: https://www.npmjs.com/tslint-loader
+  version: 3.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16395/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: typings
+  description: The TypeScript Definition Manager
+  package_url: https://www.npmjs.com/typings
+  version: 0.6.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16198/default_b4f5b6f31c5ab1ffee4bacf20842cd41a8f2658d.png
+  detection_source_url: json/src/main/webapp/package.json
+  detection_source: json/src/main/webapp/package.json
+  last_updated_by: ivan
+  last_updated_on: 2016-08-05 00:41:23.000000000 Z
+- name: webpack-cli
+  description: CLI for webpack &amp; friends
+  package_url: https://www.npmjs.com/webpack-cli
+  version: 2.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15826/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: webpack-dev-server
+  description: Serves a webpack app. Updates the browser on changes
+  package_url: https://www.npmjs.com/webpack-dev-server
+  version: 3.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15821/default_64690bc3e49bcee57094e51a7a26c620c48dbd82.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+  vulnerabilities:
+  - name: Missing Origin Validation in webpack-dev-server
+    cve_id: CVE-2018-14732
+    cve_url: https://github.com/advisories/GHSA-cf66-xwfp-gvc4
+    detected_date: Aug 22
+    severity: high
+    first_patched: 3.1.11
+- name: webpack-merge
+  description: Variant of merge that's useful for webpack configuration
+  package_url: https://www.npmjs.com/webpack-merge
+  version: 4.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15925/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: webpack-notifier
+  description: Webpack + node-notifier = build status system notifications
+  package_url: https://www.npmjs.com/webpack-notifier
+  version: 1.6.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17675/default_e87994647b10b361432e73d1831e5982307760e2.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: webpack-visualizer-plugin
+  description: Visualize and analyze your Webpack bundle to see which modules are
+    taking up space and which might be duplicates
+  package_url: https://www.npmjs.com/webpack-visualizer-plugin
+  version: 0.1.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18277/default_98150e36575f7f7c88dc8bc97b4d490739946663.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: workbox-webpack-plugin
+  description: A plugin for your Webpack build process
+  package_url: https://www.npmjs.com/workbox-webpack-plugin
+  version: 3.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16470/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: write-file-webpack-plugin
+  description: Forces webpack-dev-server to write bundle files to the file system
+  package_url: https://www.npmjs.com/write-file-webpack-plugin
+  version: 4.2.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17727/default_2f87d5add351cc79d3471e48bc0dd6f92c1288ad.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+- name: xml2js
+  description: Simple XML to JavaScript object converter
+  package_url: https://www.npmjs.com/xml2js
+  version: 0.4.17
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16122/default_efe4f0184d007a28e793d89a59e058b742bc9177.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: jhipster/jhipster-uaa/gateway/package.json
+  last_updated_by: Michael Pratt
+  last_updated_on: 2019-03-19 12:31:54.000000000 Z
+  vulnerabilities:
+  - name: xml2js is vulnerable to prototype pollution
+    cve_id: CVE-2023-0842
+    cve_url: https://github.com/advisories/GHSA-776f-qx25-q3cc
+    detected_date: Apr 8
+    severity: moderate
+    first_patched: 0.5.0
+- name: yargs
+  description: Yargs the modern, pirate-themed, successor to optimist
+  package_url: https://www.npmjs.com/yargs
+  version: 3.29.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15887/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: jhipster/jhipster-microservice/gateway-app/yarn.lock
+  detection_source: jhipster/jhipster-monolithic/package.json
+  last_updated_by: Felipe Reis
+  last_updated_on: 2017-05-07 17:00:32.000000000 Z
+- name: zone.js
+  description: Zones for JavaScript
+  package_url: https://www.npmjs.com/zone.js
+  version: 0.8.26
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15915/default_59a1b5716eefa3750c20936c3d53ff13a6390ee1.png
+  detection_source_url: jhipster/jhipster-uaa/gateway/package-lock.json
+  detection_source: spring-security-modules/spring-security-web-angular/client/angular6/package.json
+  last_updated_by: lor6
+  last_updated_on: 2017-06-25 09:58:09.000000000 Z
+- name: software.amazon.awssdk:s3
+  description: The AWS Java SDK for Amazon S3 module holds the client classes that
+    are used for communicating with Amazon Simple Storage Service
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: aws-reactive/pom.xml
+  last_updated_by: amit.pandey
+  last_updated_on: 2020-03-22 01:54:38.000000000 Z
